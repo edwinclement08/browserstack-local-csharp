@@ -8,7 +8,7 @@ using System.Security.AccessControl;
 using System.Security.Principal;
 using Newtonsoft.Json.Linq;
 
-namespace BrowserStack
+namespace BrowserStackBeta
 {
   public enum LocalState { Idle, Connecting, Connected, Error, Disconnected };
 

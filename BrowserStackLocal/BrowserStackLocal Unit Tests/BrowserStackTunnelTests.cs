@@ -4,7 +4,7 @@ using TestClass = NUnit.Framework.TestFixtureAttribute;
 using TestMethod = NUnit.Framework.TestAttribute;
 
 using NUnit.Framework;
-using BrowserStack;
+using BrowserStackBeta;
 using System.Text;
 using System.IO;
 

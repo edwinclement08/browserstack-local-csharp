@@ -2,17 +2,17 @@
 
 [![Build Status](https://travis-ci.org/browserstack/browserstack-local-csharp.svg?branch=master)](https://travis-ci.org/browserstack/browserstack-local-csharp)
 
-C# bindings for BrowserStack Local.
+C# bindings for BrowserStackBeta Local.
 
 ## Setup
 
-Open the solution file `BrowserStack/BrowserStack.sln` in `Visual Studio`. The projects are `Visual Studio 2015` compatible.
+Open the solution file `BrowserStackBeta/BrowserStackBeta.sln` in `Visual Studio`. The projects are `Visual Studio 2015` compatible.
 You will need to resolve the references from the `Solution Explorer`. `Visual Studio` with automatically download the references from NuGet.
 
 ## Example
 
 ```
-using BrowserStack;
+using BrowserStackBeta;
 
 # creates an instance of Local
 Local local = new Local();
@@ -25,7 +25,7 @@ List<KeyValuePair<string, string>> bsLocalArgs = new List<KeyValuePair<string, s
 # starts the Local instance with the required arguments
 local.start(bsLocalArgs);
 
-# check if BrowserStack local instance is running
+# check if BrowserStackBeta local instance is running
 Console.WriteLine(local.isRunning());
 
 # stop the Local instance
@@ -34,7 +34,7 @@ local.stop();
 
 ## Arguments
 
-Apart from the key, all other BrowserStack Local modifiers are optional. For the full list of modifiers, refer [BrowserStack Local modifiers](https://www.browserstack.com/local-testing#modifiers). For examples, refer below -
+Apart from the key, all other BrowserStackBeta Local modifiers are optional. For the full list of modifiers, refer [BrowserStackBeta Local modifiers](https://www.browserstack.com/local-testing#modifiers). For examples, refer below -
 
 #### Verbose Logging
 To enable verbose logging -
@@ -115,7 +115,7 @@ bsLocalArgs.Add(new KeyValuePair<string, string>("localIdentifier", "randomstrin
 
 #### Binary Path
 
-By default, BrowserStack local wrappers try downloading and executing the latest version of BrowserStack binary in ~/.browserstack or the present working directory or the tmp folder by order. But you can override these by passing the -binarypath argument.
+By default, BrowserStackBeta local wrappers try downloading and executing the latest version of BrowserStackBeta binary in ~/.browserstack or the present working directory or the tmp folder by order. But you can override these by passing the -binarypath argument.
 Path to specify local Binary path -
 ```
 bsLocalArgs.Add(new KeyValuePair<string, string>("binarypath", "/browserstack/BrowserStackLocal"));
@@ -159,5 +159,5 @@ We love pull requests! We are very happy to work with you to get your changes me
 
 To run the example,
 - open the solution file `BrowserStackExample/BrowserStackExample.sln`
-- resolve the references (Will need to resolve the reference to BrowserStack.dll [built from the main project])
-- change the `BROWSERSTACK_USERNAME` and `BROWSERSTACK_ACCESS_KEY` string variables to your BrowserStack username and key mentioned [here](https://www.browserstack.com/accounts/settings)
+- resolve the references (Will need to resolve the reference to BrowserStackBeta.dll [built from the main project])
+- change the `BROWSERSTACK_USERNAME` and `BROWSERSTACK_ACCESS_KEY` string variables to your BrowserStackBeta username and key mentioned [here](https://www.browserstack.com/accounts/settings)

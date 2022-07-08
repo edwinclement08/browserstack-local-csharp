@@ -6,9 +6,9 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Title>BrowserStackLocal Unit Tests</Title>
     <Product>BrowserStackLocal Unit Tests</Product>
-    <Description>Unit tests for BrowserStack Local binding</Description>
-    <Company>BrowserStack</Company>
-    <Authors>BrowserStack</Authors>
+    <Description>Unit tests for BrowserStackBeta Local binding</Description>
+    <Company>BrowserStackBeta</Company>
+    <Authors>BrowserStackBeta</Authors>
     <Copyright>Copyright ©  2016</Copyright>
     <IsPackable>false</IsPackable>
   </PropertyGroup>

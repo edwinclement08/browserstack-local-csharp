@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Edge;
-using BrowserStack;
+using BrowserStackBeta;
 
 namespace BrowserStackLocalIntegrationTests
 {

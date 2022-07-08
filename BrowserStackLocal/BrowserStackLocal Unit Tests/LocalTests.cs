@@ -6,7 +6,7 @@ using TestCleanup = NUnit.Framework.TearDownAttribute;
 using TestInitialize = NUnit.Framework.SetUpAttribute;
 
 using NUnit.Framework;
-using BrowserStack;
+using BrowserStackBeta;
 using System.Collections.Generic;
 using Moq;
 using System.IO;

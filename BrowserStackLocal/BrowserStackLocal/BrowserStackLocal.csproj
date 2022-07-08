@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <RootNamespace>BrowserStack</RootNamespace>
+    <RootNamespace>BrowserStackBeta</RootNamespace>
     <AssemblyName>BrowserStackLocal</AssemblyName>
     <TargetFrameworks>net20;netstandard2.0</TargetFrameworks>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Title>BrowserStackLocal</Title>
     <Product>BrowserStackLocal</Product>
-    <Description>C# Bindings for BrowserStack Local</Description>
+    <Description>C# Bindings for BrowserStackBeta Local</Description>
     <Version>2.0.0.0</Version>
     <FileVersion>2.0.0.0</FileVersion>
-    <Authors>BrowserStack</Authors>
-    <Company>BrowserStack</Company>
+    <Authors>BrowserStackBeta</Authors>
+    <Company>BrowserStackBeta</Company>
     <Copyright>Copyright ©  2016</Copyright>
     <PackageLicenseFile>MIT-LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
